@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_members",
+  "info": {
+    "name": "TeamMember",
+    "description": "Team members associated with a project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "memberName": {
+      "type": "string",
+      "required": true
+    },
+    "positionTitle": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "socialLinks": {
+      "type": "json"
+    },
+    "project": {
+      "model": "project",
+      "via": "teamMembers"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_infos",
+  "info": {
+    "name": "CompanyInfo",
+    "description": "Stores company information for each project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "companyName": {
+      "type": "string",
+      "required": true
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "address.address"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "emailAddress": {
+      "type": "email"
+    },
+    "businessHours": {
+      "type": "json"
+    },
+    "socialMediaLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-media.social-media-link"
+    },
+    "project": {
+      "model": "project",
+      "via": "companyInfo"
+    }
+  }
+}

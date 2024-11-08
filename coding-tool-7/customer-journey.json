@@ -1,0 +1,267 @@
+{
+  "customerJourney": [
+    {
+      "stage": "Landing Page",
+      "description": "User arrives at the website landing page",
+      "visualElements": [
+        "Hero section with headline 'Create Your Professional Website in Minutes'",
+        "Animated graphic showing website creation process",
+        "Call-to-Action button 'Get Started for Free'",
+        "Navigation menu with 'Features', 'Pricing', 'Templates', 'Login'"
+      ],
+      "userActions": [
+        "Scroll through landing page",
+        "Click 'Get Started for Free' button"
+      ]
+    },
+    {
+      "stage": "Registration",
+      "description": "User creates an account",
+      "visualElements": [
+        "Registration form with fields for email and password",
+        "Option to sign up with Google or Facebook",
+        "Password strength indicator",
+        "Terms of Service and Privacy Policy links"
+      ],
+      "userActions": [
+        "Enter email address",
+        "Create and confirm password",
+        "Check box to agree to Terms of Service",
+        "Click 'Create Account' button"
+      ]
+    },
+    {
+      "stage": "Email Verification",
+      "description": "User verifies their email address",
+      "visualElements": [
+        "Confirmation page stating 'Check Your Email'",
+        "Animated envelope icon",
+        "Input field for verification code"
+      ],
+      "userActions": [
+        "Open email client",
+        "Find verification email",
+        "Enter verification code on website",
+        "Click 'Verify' button"
+      ]
+    },
+    {
+      "stage": "Onboarding",
+      "description": "User completes initial setup",
+      "visualElements": [
+        "Progress bar showing onboarding steps",
+        "Welcome message",
+        "Series of questions about business type and goals",
+        "Dropdown menus and radio buttons for selections"
+      ],
+      "userActions": [
+        "Select business type from dropdown",
+        "Choose primary goal (e.g., 'Attract Customers', 'Sell Products')",
+        "Indicate experience level with website creation",
+        "Click 'Next' after each question"
+      ]
+    },
+    {
+      "stage": "Dashboard",
+      "description": "User views main dashboard",
+      "visualElements": [
+        "Sidebar with navigation options",
+        "Welcome message with user's name",
+        "Quick start guide card",
+        "'Create New Website' button",
+        "Sample templates based on user's business type"
+      ],
+      "userActions": [
+        "Click 'Create New Website' button"
+      ]
+    },
+    {
+      "stage": "Template Selection",
+      "description": "User chooses a website template",
+      "visualElements": [
+        "Grid of template thumbnails",
+        "Filter options by industry and style",
+        "Preview button on each template",
+        "'Use This Template' button"
+      ],
+      "userActions": [
+        "Browse template options",
+        "Use filters to narrow down choices",
+        "Click 'Preview' to see full-size template",
+        "Click 'Use This Template' on chosen design"
+      ]
+    },
+    {
+      "stage": "Company Information Input",
+      "description": "User enters basic company details",
+      "visualElements": [
+        "Form with fields for company name, tagline, and description",
+        "Upload area for company logo",
+        "Progress indicator showing completion status",
+        "'Save and Continue' button"
+      ],
+      "userActions": [
+        "Enter company name",
+        "Write company tagline",
+        "Provide brief company description",
+        "Upload company logo",
+        "Click 'Save and Continue'"
+      ]
+    },
+    {
+      "stage": "Services Definition",
+      "description": "User defines their services or products",
+      "visualElements": [
+        "Form to add service/product name and description",
+        "'Add Another Service' button",
+        "List of added services with edit and delete options",
+        "'Save and Continue' button"
+      ],
+      "userActions": [
+        "Enter service/product name",
+        "Provide service/product description",
+        "Click 'Add Another Service' if needed",
+        "Edit or delete services as necessary",
+        "Click 'Save and Continue'"
+      ]
+    },
+    {
+      "stage": "Team Member Addition",
+      "description": "User adds team members (if applicable)",
+      "visualElements": [
+        "Form for team member name, position, and bio",
+        "Upload area for team member photo",
+        "List of added team members with edit and delete options",
+        "'Skip This Step' option",
+        "'Save and Continue' button"
+      ],
+      "userActions": [
+        "Enter team member details",
+        "Upload team member photo",
+        "Add multiple team members if needed",
+        "Click 'Save and Continue' or 'Skip This Step'"
+      ]
+    },
+    {
+      "stage": "AI Content Generation",
+      "description": "User initiates AI-powered content creation",
+      "visualElements": [
+        "Explanation of AI content generation process",
+        "'Generate Content' button",
+        "Loading animation during content creation",
+        "Preview of generated content with edit options"
+      ],
+      "userActions": [
+        "Click 'Generate Content' button",
+        "Wait for content generation (progress bar shown)",
+        "Review generated content",
+        "Make manual edits if desired",
+        "Click 'Accept Content' or 'Regenerate'"
+      ]
+    },
+    {
+      "stage": "Website Customization",
+      "description": "User customizes website appearance",
+      "visualElements": [
+        "Split-screen with website preview and customization options",
+        "Color palette selection",
+        "Font style options",
+        "Layout adjustment tools",
+        "'Undo' and 'Redo' buttons",
+        "'Save Changes' button"
+      ],
+      "userActions": [
+        "Select color scheme",
+        "Choose font styles",
+        "Adjust layout elements",
+        "Preview changes in real-time",
+        "Click 'Save Changes'"
+      ]
+    },
+    {
+      "stage": "SEO Optimization",
+      "description": "User optimizes website for search engines",
+      "visualElements": [
+        "SEO checklist with completion status",
+        "Input fields for meta titles and descriptions",
+        "Keyword suggestion tool",
+        "SEO score indicator",
+        "'Update SEO' button"
+      ],
+      "userActions": [
+        "Enter meta titles and descriptions",
+        "Select relevant keywords",
+        "Review and implement SEO suggestions",
+        "Click 'Update SEO'"
+      ]
+    },
+    {
+      "stage": "Website Preview",
+      "description": "User previews complete website",
+      "visualElements": [
+        "Full-screen preview of website",
+        "Device toggle (Desktop, Tablet, Mobile)",
+        "Edit button for each section",
+        "'Back to Editor' button",
+        "'Publish Website' button"
+      ],
+      "userActions": [
+        "Navigate through website preview",
+        "Switch between device views",
+        "Make final edits if needed",
+        "Click 'Publish Website' when satisfied"
+      ]
+    },
+    {
+      "stage": "Domain Setup",
+      "description": "User sets up domain for the website",
+      "visualElements": [
+        "Option to use free subdomain or connect custom domain",
+        "Input field for custom domain",
+        "Instructions for DNS configuration",
+        "'Connect Domain' button"
+      ],
+      "userActions": [
+        "Choose between free subdomain or custom domain",
+        "Enter custom domain if applicable",
+        "Follow DNS configuration instructions",
+        "Click 'Connect Domain'"
+      ]
+    },
+    {
+      "stage": "Website Publication",
+      "description": "User publishes the website",
+      "visualElements": [
+        "Final checklist of website elements",
+        "Loading animation during publication process",
+        "Success message with website URL",
+        "Share buttons for social media",
+        "'View My Website' button"
+      ],
+      "userActions": [
+        "Review final checklist",
+        "Click 'Publish Now'",
+        "Wait for publication to complete",
+        "Optionally share website on social media",
+        "Click 'View My Website' to see live site"
+      ]
+    },
+    {
+      "stage": "Post-Publication Dashboard",
+      "description": "User returns to dashboard after publication",
+      "visualElements": [
+        "Website analytics summary",
+        "Recent visitor count",
+        "Performance metrics",
+        "'Edit Website' button",
+        "'Create New Page' option",
+        "Help and support resources"
+      ],
+      "userActions": [
+        "Review website analytics",
+        "Click 'Edit Website' to make updates",
+        "Explore additional features and resources"
+      ]
+    }
+  ]
+}

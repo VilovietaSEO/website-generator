@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project",
+    "description": "User's website project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "projectName": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "published"
+      ],
+      "default": "draft",
+      "required": true
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "projects"
+    },
+    "companyInfo": {
+      "model": "company-info",
+      "via": "project"
+    },
+    "services": {
+      "collection": "service",
+      "via": "project"
+    },
+    "teamMembers": {
+      "collection": "team-member",
+      "via": "project"
+    },
+    "generatedContents": {
+      "collection": "generated-content",
+      "via": "project"
+    },
+    "selectedTemplate": {
+      "type": "string"
+    },
+    "publishedUrl": {
+      "type": "string"
+    },
+    "lastPublishedAt": {
+      "type": "datetime"
+    }
+  }
+}

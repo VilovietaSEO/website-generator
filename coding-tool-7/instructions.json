@@ -1,0 +1,186 @@
+{
+  "projectName": "Cloud SaaS Website Generator",
+  "version": "1.0.0",
+  "description": "An AI-powered website generator using Next.js and Strapi CMS",
+  "installation": {
+    "prerequisites": [
+      "Node.js (v14 or later)",
+      "npm or Yarn",
+      "Git",
+      "PostgreSQL (for Strapi CMS)"
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "description": "Clone the repository",
+        "command": "git clone https://github.com/your-org/cloud-saas-website-generator.git"
+      },
+      {
+        "step": 2,
+        "description": "Install backend dependencies",
+        "commands": [
+          "cd backend",
+          "npm install"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Install frontend dependencies",
+        "commands": [
+          "cd frontend",
+          "npm install"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Set up environment variables",
+        "instructions": [
+          "Copy .env.example to .env in both backend and frontend directories",
+          "Fill in the necessary environment variables in both .env files"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Start the backend server",
+        "commands": [
+          "cd backend",
+          "npm run develop"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "Start the frontend development server",
+        "commands": [
+          "cd frontend",
+          "npm run dev"
+        ]
+      }
+    ]
+  },
+  "dependencies": {
+    "backend": [
+      {
+        "name": "strapi",
+        "version": "^3.6.8"
+      },
+      {
+        "name": "pg",
+        "version": "^8.7.1"
+      },
+      {
+        "name": "axios",
+        "version": "^0.24.0"
+      }
+    ],
+    "frontend": [
+      {
+        "name": "next",
+        "version": "^12.0.0"
+      },
+      {
+        "name": "react",
+        "version": "^17.0.2"
+      },
+      {
+        "name": "react-dom",
+        "version": "^17.0.2"
+      },
+      {
+        "name": "styled-components",
+        "version": "^5.3.3"
+      },
+      {
+        "name": "axios",
+        "version": "^0.24.0"
+      },
+      {
+        "name": "formik",
+        "version": "^2.2.9"
+      },
+      {
+        "name": "yup",
+        "version": "^0.32.11"
+      }
+    ]
+  },
+  "scripts": {
+    "backend": {
+      "develop": "strapi develop",
+      "start": "strapi start",
+      "build": "strapi build"
+    },
+    "frontend": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    }
+  },
+  "distribution": {
+    "appStore": {
+      "name": "Cloud SaaS Website Generator",
+      "shortDescription": "Create professional websites with AI-powered content generation.",
+      "longDescription": "Cloud SaaS Website Generator is an innovative tool that allows users to create stunning, SEO-optimized websites with ease. Leveraging the power of AI, it generates custom content based on user inputs, and provides a range of professional templates to choose from. Perfect for small businesses, freelancers, and entrepreneurs looking to establish a strong online presence quickly and efficiently.",
+      "keywords": [
+        "website generator",
+        "AI content",
+        "SaaS",
+        "web design",
+        "SEO",
+        "small business",
+        "entrepreneur"
+      ],
+      "category": "Productivity",
+      "subcategory": "Web Development",
+      "price": {
+        "tier": "Freemium",
+        "details": "Free plan available. Premium plans start at $9.99/month."
+      },
+      "supportUrl": "https://www.example.com/support",
+      "privacyPolicyUrl": "https://www.example.com/privacy",
+      "termsOfServiceUrl": "https://www.example.com/terms"
+    },
+    "pluginMarket": {
+      "name": "AI Website Builder",
+      "description": "Integrate AI-powered website generation into your existing CMS or web application.",
+      "version": "1.0.0",
+      "compatibility": {
+        "wordpress": "5.0+",
+        "drupal": "8.0+",
+        "joomla": "3.0+"
+      },
+      "installation": "Follow the installation steps provided in the project's README.md file.",
+      "configuration": "After installation, navigate to the plugin settings in your CMS and enter your API credentials.",
+      "usage": "Use the provided shortcodes or blocks to embed the website generator functionality into your pages or posts.",
+      "support": {
+        "email": "support@example.com",
+        "documentation": "https://www.example.com/plugin-docs"
+      }
+    },
+    "extensionMarket": {
+      "name": "Website Generator Pro",
+      "description": "Create professional websites directly from your browser with AI-assisted content generation.",
+      "version": "1.0.0",
+      "browserCompatibility": {
+        "chrome": "88+",
+        "firefox": "78+",
+        "safari": "14+",
+        "edge": "88+"
+      },
+      "permissions": [
+        "storage",
+        "tabs"
+      ],
+      "installationSteps": [
+        "Download the extension from the marketplace",
+        "Click 'Add to Browser' or drag the file into your browser's extension page",
+        "Grant necessary permissions when prompted"
+      ],
+      "usage": "Click on the extension icon in your browser to open the website generator interface.",
+      "privacyInfo": "This extension does not collect any personal data. All generated content is processed securely in the cloud.",
+      "support": {
+        "email": "extensions@example.com",
+        "faq": "https://www.example.com/extension-faq"
+      }
+    }
+  }
+}
